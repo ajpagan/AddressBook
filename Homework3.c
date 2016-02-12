@@ -105,7 +105,7 @@ int addRecord(struct record** start,char name[], char address[], int birthYear, 
  *  Return values:       0 : success
  *
  ******************************************************************************/
-
+ 
 int printRecord(struct record* start, char name[])
 {
     int found = 0;
@@ -163,7 +163,6 @@ int printRecord(struct record* start, char name[])
  *  Return values:       0 : success
  *
  ******************************************************************************/
-
 
 int modifyRecord(struct record* start, char name[], char address[], char number[])
 { 
